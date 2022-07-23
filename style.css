@@ -7,25 +7,25 @@
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.471);
     /* filter:brightness(50%); */
-    position:relative;
+    position: relative;
 }
 
 .banner1 {
     background-image: url("images/banner1.jpg");
 }
 
-.content1 h6{
+.content1 h6 {
     position: absolute;
-    top:50%;
-    left:10%;
-    font-weight:700;
-    font-size:44px;
-    color:white;
+    top: 50%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 44px;
+    color: white;
 }
 
-.row > * {
-    padding-left:0;
-    padding-right:0;
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .banner2 {
@@ -39,193 +39,393 @@
 .banner4 {
     background-image: url("images/banner4.jpg");
 }
-.landing-section-right{
-    background-image: url("images/left3.jpg") ;
-    font-weight:900;
-    height:100vh;
+
+.landing-section-right {
+    background-image: url("images/left3.jpg");
+    font-weight: 900;
+    height: 100vh;
     background-position: center;
     background-size: cover;
-    position:relative;
+    position: relative;
     background-repeat: no-repeat;
 }
 
-.content-mens-fashion h6{
-    position:absolute;
-    top:50%;
-    left:10%;
-    font-size:44px;
+.content-mens-fashion h6 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 44px;
 }
 
 
 
-.owl-carousel .owl-nav button.owl-prev span{
+.owl-carousel .owl-nav button.owl-prev span {
     /* background-color:green !important; */
-    color:white;
-   font-size:54px;
-   position: absolute;
-   top:45%;
-   left:2%;
+    color: white;
+    font-size: 54px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
 }
-.owl-carousel .owl-nav button.owl-next span{
+
+.owl-carousel .owl-nav button.owl-next span {
     /* background-color:green !important; */
-    color:white;
-   font-size:54px;
-   position: absolute;
-   top:45%;
-   left:94%;
+    color: white;
+    font-size: 54px;
+    position: absolute;
+    top: 45%;
+    left: 94%;
 }
 
 
-@media screen and (max-width:576px){
-    .item{
-        height:90vh;
+@media screen and (max-width:576px) {
+    .item {
+        height: 90vh;
     }
+
 }
 
 
-.header 
-{
-    
-    position:absolute;
-    top:2%;
-    left:1.5%;
-    z-index:1000;
-    font-weight:600;
-    color:white;
-    width:95%;
+.header {
+
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+    z-index: 1000;
+    font-weight: 600;
+    color: white;
+    width: 95%;
 }
 
-.banner-section{
-    position:relative;
+.banner-section {
+    position: relative;
 }
 
-span{
-    color:#ff7315;
+span {
+    color: #ff7315;
 }
 
-.header-container{
-    display:flex !important;
+.header-container {
+    display: flex !important;
     flex-direction: row !important;
     justify-content: space-between !important;
 
-    border:5px solid black;
+    border: 5px solid black;
 }
 
 
 
-.header-r{
-    gap:10px;
+.header-r {
+    gap: 10px;
 }
 
-.user-icon{
+.user-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:20px;
-    height:40px;
+    width: 20px;
+    height: 40px;
     /* margin-top:5px; */
-    border-radius:1000px;
-    background-color:rgba(255, 255, 255, 0.141);
-    padding:3px 18px;
+    border-radius: 1000px;
+    background-color: rgba(255, 255, 255, 0.141);
+    padding: 3px 18px;
 }
 
-.user-icon:hover{
-    background-color:#ff7315;
-    color:white;
-    cursor:pointer;
+.user-icon:hover {
+    background-color: #ff7315;
+    color: white;
+    cursor: pointer;
     transition: 1s;
 }
 
-.mycart i{
+.mycart i {
     color: white;
 }
 
 
-.mycart{
+.mycart {
     /* display: flex; */
-    gap:20px;
-    margin-bottom:20px;
-    padding:20px 70px;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px 70px;
     justify-content: center;
     align-items: center;
-    width:100px;
-    height:30px;
-    border-radius:1000px;
+    width: 100px;
+    height: 30px;
+    border-radius: 1000px;
     background-color: rgba(255, 255, 255, 0.141);
 }
 
-.mycart:hover{
-    background-color:#ff7315;
-    color:white;
-    cursor:pointer;
+.mycart:hover {
+    background-color: #ff7315;
+    color: white;
+    cursor: pointer;
     transition: 1s;
 }
 
-.shop-now-btn{
-    border:none;
+.shop-now-btn {
+    border: none;
     border-radius: 1000px;
-    padding:4px 15px;
-    font-size:20px;
-    z-index:1000;
-    position:absolute;
-    top:73%;
-    left:20%;
+    padding: 4px 15px;
+    font-size: 20px;
+    z-index: 1000;
+    position: absolute;
+    top: 73%;
+    left: 20%;
     font-weight: 500;
     background-color: wheat;
 }
 
-.shop-now-btn:hover{
-    background-color:#ff7315;
-    color:white;
+.shop-now-btn:hover {
+    background-color: #ff7315;
+    color: white;
 }
 
-.logo-left h5{
-    font-size:34px;
+.logo-left h5 {
+    font-size: 34px;
 }
 
-.logo{
-    width:37%;
-   }
-
-
-
-.search-btn{
-    margin-right:20px;
-    font-size:30px;
+.logo {
+    width: 37%;
 }
 
-.btn-search{
-    font-size:24px;
+
+
+.search-btn {
+    margin-right: 20px;
+    font-size: 30px;
 }
 
-.ul-li{
-    list-style:none;
+.btn-search {
+    font-size: 24px;
+}
+
+.ul-li {
+    list-style: none;
     cursor: pointer;
 }
-.ul-li:hover{
-    color:#ff7315;
+
+.ul-li:hover {
+    color: #ff7315;
 }
-ul{
+
+ul {
     display: flex;
-    gap:30px;
+    gap: 30px;
 
 }
 
 
-@media screen and (max-width:992px){
-    .header-l{
-        display: none;  
+@media screen and (max-width:992px) {
+    .header-l {
+        display: none;
     }
 
-    .header-r{
+    .header-r {
         justify-content: space-between;
-        width:100%;
-        padding:10px;
+        width: 100%;
+        padding: 10px;
     }
 
-    .logo{
-        width:80%;
+    .logo {
+        width: 70%;
         margin-bottom: 20px;
     }
-    
+
+    .navbar {
+        background-color: white;
+        ;
+    }
+
+    .search-btn {
+        font-size: 20px;
+    }
+
+    .content1 h6 {
+        top: 40%;
+        font-size: 40px;
+    }
+
+    .landing-section-right {
+        height: 100vh;
+    }
+
+    .content-mens-fashion h6 {
+        top: 50%;
+        left: 5%;
+        font-size: 34px;
+    }
+
+    .owl-nav {
+        margin: 0;
+    }
 }
+
+@media screen and (max-width:768px) {
+    .landing-section-right {
+        height: 50vh;
+    }
+
+    .content-mens-fashion h6 {
+        top: 30%;
+        left: 5%;
+        font-size: 34px;
+    }
+
+    .btn-search {
+        display: none;
+    }
+
+   
+}
+
+.owl-carousel.owl-drag .owl-item{
+    margin-right:0px;
+}
+
+.shop-with-us {
+    margin-top: 50px;
+
+}
+.shop-name h1{
+    font-size:48px;
+    font-weight:800;
+}
+
+.hand-bags {
+
+    height: 180px;
+    width: 180px;
+    border-radius: 1000px;
+    /* margin-bottom:20px; */
+}
+
+.shop-with-us-container {
+    gap: 20px;
+}
+
+.grd1 {
+    background-image: url("images/grid1.jpg");
+    cursor: pointer;
+    position: relative;
+
+}
+
+.grd2 {
+    background-image: url("images/grid2.jpg");
+    cursor: pointer;
+    position: relative;
+}
+
+.grd3 {
+    background-image: url("images/grid3.jpg");
+    cursor: pointer;
+    position: relative;
+}
+
+.grd4 {
+    background-image: url("images/grid4.jpg");
+    cursor: pointer;
+    position: relative;
+}
+
+.grd5 {
+    background-image: url("images/grid5.jpg");
+    cursor: pointer;
+    position: relative;
+}
+
+.grd6 {
+    background-image: url("images/grid6.jpg");
+    cursor: pointer;
+    position: relative;
+}
+
+.hover {
+    height: 130px;
+    width: 120px;
+    border-radius: 1000px;
+    border: 1px solid black;
+    transform: perspective(600px) rotateY(90deg);
+    background-color: rgba(0, 0, 0, 0.512);
+    transition: 0.5s;
+    position: absolute;
+    top: 18%;
+    left: 17%;
+}
+
+.grd1:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.grd2:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.grd3:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.grd4:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.grd5:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.grd6:hover .hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.hover h6 {
+    font-size: 20px;
+
+}
+
+.hover h6:hover {
+    color: #ff7315;
+}
+
+.circle-container {
+    gap: 10px;
+}
+
+.branded-section-men{
+    padding: 150px;
+
+    background-color: #f4f4f4;
+}
+
+.branded-section-left h2{
+    font-weight:500;
+}
+
+.branded-section-left{
+    gap:30px;
+}
+.shop-now-btn-brand {
+    border: none;
+    border-radius: 1000px;
+    padding: 14px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.826);
+    width:30%;
+    color:white;
+}
+.shop-now-btn-brand:hover{
+background-color: #ff7315;
+}
+
+/* @media screen and (max-width:576px){
+    .branded-section-men{
+        padding:0;
+    }
+} */
